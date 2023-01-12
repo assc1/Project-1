@@ -1,0 +1,6 @@
+edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex directive:
+sudo systemctl reload apache2
+Create a new file named index.php inside your custom web root folder
+vim /var/www/projectlamp/index.php
+sudo rm /var/www/projectlamp/index.php
+image.png

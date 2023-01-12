@@ -1,0 +1,11 @@
+Create the directory for projectlamp
+sudo mkdir /var/www/projectlamp
+assign ownership of the directory with your current system user
+sudo chown -R $USER:$USER /var/www/projectlamp
+sudo vi /etc/apache2/sites-available/projectlamp.conf
+List new file
+Enable virtual host
+Create an index.html file in that location so that we can test that the virtual host works as expected:
+
+open website in browser-52.15.66.32
+image.png
